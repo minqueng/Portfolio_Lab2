@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngo Minh Quang | Portfolio</title>
+    <style>
+        /* CSS Reset & Basic Layout */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        .intro-text {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#Introduction">Introduction</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>  
+        <section id="Introduction">
+            <h2>Personal Information</h2>
+            <img src="assets/ngominhquang.jpg" alt="Portrait of Ngo Minh Quang" width="200">
+            <!-- Đã sửa h3 thành p để chuẩn ngữ nghĩa -->
+            <p class="intro-text">Welcome to my portfolio! I am a passionate developer with experience in various technologies.</p>
+            <p><strong>Name:</strong> Ngo Minh Quang</p>
+            <p><strong>Email:</strong> minquengg@gmail.com</p>
+        </section>
+
+        <section id="Skills">
+            <h2>Skills</h2>
+            <!-- Đã bổ sung kỹ năng bám sát dự án thực tế -->
+            <ul>
+                <li>C# & .NET</li>
+                <li>Java</li>
+                <li>SQL Server</li>
+                <li>Python</li>
+                <li>HTML / CSS / JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <ul>
+                <!-- Đã sửa lỗi syntax đẩy chuỗi SE08301 vào đúng vị trí -->
+                <li><strong>Project 1:</strong> Student Management System (Java) - Class SE08301</li>
+                <li><strong>Project 2:</strong> Library Management System (C# & SQL)</li>
+                <li><strong>Project 3:</strong> Water Bill Management System (C# WinForms)</li>
+            </ul>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> <a href="mailto:minquengg@gmail.com">minquengg@gmail.com</a></p>
+        </section>
+    </main>
+</body>
+</html>
